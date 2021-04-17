@@ -1,115 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Key Saver</title>
     <link rel="stylesheet" href="index.css">
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://malsup.github.io/jquery.cycle2.js"></script>
-<script src="http://learnwebcode.github.io/declarativeToggle/js/jquery.declarativeToggle.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="http://learnwebcode.github.io/declarativeToggle/js/jquery.declarativeToggle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 
-<header class="section">
+    <header class="section">
 </head>
+
 <body>
     <div id="Header">
     </div>
     <div id="Content">
     </div>
     <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
-<div id="navbar">
-    <a href="#default" id="logo">iTrack</a>
-    <div id="navbar-right">
-        <a class="Home" href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
-        <a href="#about">About</a>
-        <a href="Cart.html">Cart</a>
+    <div id="navbar">
+        <a href="index.html" id="logo">iTrack</a>
+        <div id="navbar-right">
+            <a href="product.html">Product</a>
+            <a href="#about">About</a>
+            <a href="cart.html">Cart</a>
+        </div>
     </div>
-</div>
-<script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-90px";
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-90px";
+            }
+            prevScrollpos = currentScrollPos;
         }
-        prevScrollpos = currentScrollPos;
-    }
-</script>
+    </script>
 
-<div class="clearfix">
-    <div class="box">
-        <img src="apple_tv.png" height="500" alt="Track Apple Tv">
-        
-    </div>
-    <div class="box">
-        <p>Location tracking: APP will record the last location of disconnection and you can track in the
-            build-in map.</p>
-    </div>
-</div>
-<div class="clearfix">
-    <div class="box">
-        <p>Network search: if you cannot find you lost items, you can mark as lost, then our iTrack easy network will
-            help you to find the lost valuable items.</p>
-    </div>
-    <div class="box">
-        <img src="apple_pc.png" height="500" alt="Track Apple Pc">
-    </div>
-</div>
-<div class="half-box">
-    <div class="for-pic">
-        <img src="travel_bag.png" alt="Track Travel Bag" style="
-        width: 100%;">
-        <div class="top-left">
-            Manually Mark Locations: drop pins to mark and timestamp locations
+    <div class="clearfix">
+        <div class="box">
+            <img src="apple_tv.png" height="500" alt="Track Apple Tv">
+
+        </div>
+        <div class="box">
+            <p>Location tracking: APP will record the last location of disconnection and you can track in the
+                build-in map.</p>
         </div>
     </div>
-    <div class="for-pic">
-        <img src="travel_bag.png" alt="Track Travel Bag" style="
+    <div class="clearfix">
+        <div class="box">
+            <p>Network search: if you cannot find you lost items, you can mark as lost, then our iTrack easy network
+                will
+                help you to find the lost valuable items.</p>
+        </div>
+        <div class="box">
+            <img src="apple_pc.png" height="500" alt="Track Apple Pc">
+        </div>
+    </div>
+    <div class="half-box">
+        <div class="for-pic">
+            <img src="travel_bag.png" alt="Track Travel Bag" style="
         width: 100%;">
-        <div class="top-right">
-            Manually Mark Locations: drop pins to mark and timestamp locations
-         </div>
+            <div class="top-left">
+                Manually Mark Locations: drop pins to mark and timestamp locations
+            </div>
+        </div>
+        <div class="for-pic">
+            <img src="travel_bag.png" alt="Track Travel Bag" style="
+        width: 100%;">
+            <div class="top-right">
+                Manually Mark Locations: drop pins to mark and timestamp locations
+            </div>
         </div>
 
-</div>
-<div class="info">
-    <h1>Welcome to the world’s largest lost-and-found Network</h1>
-    <main>
-   <div class="info1">
-    <h3>We connect people to their things and to a global network of finding 
-        power. We believe the more we connect, the more powerful we all are.
-         Our vision is to share 
-        a world where everyone can find everything that matters.</h3>
-        <div class="row boxes">
-        <div class="col col-sm-6 col-lg-3">
-            <!-- box-a -->
-            <div class="box-a">
-              <p>Key feature 4</p>
-            </div>
-            </div>
-          </div>
-            <div class="box-a">
-              <p>Key feature 1</p>
-            </div>
+    </div>
+    <div class="info">
+        <h1>Welcome to the world’s largest lost-and-found Network</h1>
+        <main>
+            <div class="info1">
+                <h3>We connect people to their things and to a global network of finding
+                    power. We believe the more we connect, the more powerful we all are.
+                    Our vision is to share
+                    a world where everyone can find everything that matters.</h3>
+                <div class="row boxes">
+                    <div class="col col-sm-6 col-lg-3">
+                        <!-- box-a -->
+                        <div class="box-a">
+                            <p>Key feature 4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-a">
+                    <p>Key feature 1</p>
+                </div>
                 <!-- box-a -->
                 <div class="box-a">
-                  <p>Key feature 2</p>
+                    <p>Key feature 2</p>
                 </div>
-                    <div class="box-a">
-                      <p>Key feature 3</p>
-                    </div>
-                        
-   </div> 
-  </div>  
-</main>
-<footer>
-    <!-- Footer content -->
-</footer>
+                <div class="box-a">
+                    <p>Key feature 3</p>
+                </div>
+
+            </div>
+    </div>
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
 </body>
+
 </html>
